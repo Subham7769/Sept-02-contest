@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    height: 50px;
+  }
+  header > h2 {
+    margin-left: 10px;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #cdcdcd;
+    padding: 15px;
+  }
+  .upper-container {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .search-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+  }
+  #searchStudent {
+    width: 80%;
+    height: 45px;
+  }
+  .btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    margin: 5px;
+    border-radius: 2px;
+  }
+  .sort-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .table-container {
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .table-container::-webkit-scrollbar{
+    display: none;
+  }
+  #table2{
+    display: none;
+    margin-top: 50px;
+    
+  }
+  table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  tr,
+  td,
+  th {
+    padding: 10px;
+    border: 1px solid black;
+  }
